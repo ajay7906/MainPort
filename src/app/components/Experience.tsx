@@ -6,25 +6,21 @@ import Image from "next/image";
 import { FocusCards } from "@/components/ui/focus-cards";
 export function BackgroundBeamsDemo() {
 
-
-    const cards = [
-        {
-          title: "Card 1",
-          description: "This is the description for Card 1",
-        },
-        {
-          title: "Card 2",
-          description: "This is the description for Card 2",
-        },
-        {
-          title: "Card 3",
-          description: "This is the description for Card 3",
-        },
-      ];
-      
-
-
-
+  const cards = [
+    {
+      title: "Front-end Developer",
+      description: "Worked as a Front-end Developer at Exon Saha for 3 months, building responsive and dynamic user interfaces using modern web technologies.",
+    },
+    {
+      title: "Full Stack Developer",
+      description: "Developed full-stack applications at Cuvette Tech, focusing on MERN stack projects for 10 months, contributing to both frontend and backend systems.",
+    },
+    {
+      title: "Freelancer",
+      description: "Gained two years of freelance experience, delivering custom web solutions to Indian clients using technologies like React, Node.js, and MongoDB.",
+    },
+  ];
+  
 
 
 
