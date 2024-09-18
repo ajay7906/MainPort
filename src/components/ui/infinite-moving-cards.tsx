@@ -157,7 +157,7 @@ export const InfiniteMovingCards = ({
   useEffect(() => {
     addAnimation();
   }, []);
-  
+
   const [start, setStart] = useState(false);
 
   function addAnimation() {
@@ -239,14 +239,20 @@ export const InfiniteMovingCards = ({
                 {item.quote}
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center gap-2">
-                <span className="flex flex-col gap-1">
+                <span className="flex flex-col gap-1 item-center">
                   <span className="text-sm leading-[1.6] text-gray-400 font-normal">
                     {item.name}
                   </span>
-                  <span className="flex items-center gap-2 text-sm leading-[1.6] text-gray-400 font-normal">
-                    {/* Render the icon next to the title */}
-                    {item.iconTitle} {item.title}
+
+                  {/* <span className="flex items-center justify-center gap-2 text-sm leading-[1.6] text-gray-400 font-normal">
+                    
+                    {item.iconTitle} 
+                  </span>  */}
+                  <span className="flex items-center justify-center gap-2 text-sm leading-[1.6] text-gray-400 font-normal">
+                    {/* Render the icon and title centered with modified color, size, and width */}
+                    <span className="text-blue-500 w-10 h-8 text-3xl">{item.iconTitle}</span>
                   </span>
+
                 </span>
               </div>
             </blockquote>
