@@ -32,43 +32,41 @@ export function SpotlightPreview() {
 
 
 
-
-
 export const projects = [
-    {
-      title: "Stripe",
+  {
+      title: "Story Sharing System",
       description:
-        "A technology company that builds economic infrastructure for the internet.",
-      link: "https://stripe.com",
-    },
-    {
-      title: "Netflix",
+          "A Node.js-based platform allowing users to share their stories, with backend integration and a user-friendly interface.",
+      link: "https://your-story-sharing-link.com",
+  },
+  {
+      title: "Job Listing Web App",
       description:
-        "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-      link: "https://netflix.com",
-    },
-    {
-      title: "Google",
+          "A platform to list and search job openings with features such as filtering by categories and applying online.",
+      link: "https://your-job-listing-link.com",
+  },
+  {
+      title: "Ecommerce Web App",
       description:
-        "A multinational technology company that specializes in Internet-related services and products.",
-      link: "https://google.com",
-    },
-    {
-      title: "Meta",
+          "An e-commerce platform with product listings, shopping cart functionality, and secure checkout using payment gateways.",
+      link: "https://your-ecommerce-webapp-link.com",
+  },
+  {
+      title: "Quizzes Web App",
       description:
-        "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-      link: "https://meta.com",
-    },
-    {
-      title: "Amazon",
+          "An interactive quizzes platform where users can participate in quizzes on various topics, with score tracking and responsive design.",
+      link: "https://your-quizzes-webapp-link.com",
+  },
+  {
+      title: "Fashion E-commerce Website",
       description:
-        "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-      link: "https://amazon.com",
-    },
-    {
-      title: "Microsoft",
+          "An e-commerce platform with user authentication, OTP support, rate limiting, and best practices in security, performance optimization, and API integration.",
+      link: "https://your-fashion-ecommerce-link.com",
+  },
+  {
+      title: "Ecommerse with payment Intergration",
       description:
-        "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-      link: "https://microsoft.com",
-    },
-  ];
+      "A full-featured e-commerce platform with advanced payment integration, product management, user authentication, and an optimized checkout flow.",
+  link: "https://your-ecommerce-payment-integration-link.com",
+  },
+];
