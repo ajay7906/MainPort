@@ -43,8 +43,9 @@ export function BackgroundLinesDemo() {
       <HoverBorderGradient
         containerClassName="rounded-full"
          as="a"
-        href="https://drive.google.com/file/d/1d608-aylyBiEsDbUzY8Ru9Fp3jZwJEJg/view" // Google Drive link
-        target="_blank" // Open in a new tab
+       // href="https://drive.google.com/file/d/1d608-aylyBiEsDbUzY8Ru9Fp3jZwJEJg/view" // Google Drive link
+       
+       // target="_blank" // Open in a new tab
         rel="noopener noreferrer" // Security measure for opening external links
         className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
       >
